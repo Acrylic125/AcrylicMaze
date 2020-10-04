@@ -6,7 +6,6 @@ public class MazeUI extends DefaultUI {
 
     public MazeUI(String title) {
         super(title);
-
     }
 
 }

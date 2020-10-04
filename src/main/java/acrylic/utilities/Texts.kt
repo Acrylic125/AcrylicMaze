@@ -9,4 +9,3 @@ fun send(vararg string : String?) {
         println("${getPrefix()} $it");
     }
 }
-

@@ -50,4 +50,13 @@ public class DefaultUISettings implements AbstractUISettings {
         jFrame.setTitle(getTitle());
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "DefaultUISettings{" +
+                "width=" + width +
+                ", height=" + height +
+                ", title='" + title + '\'' +
+                '}';
+    }
 }

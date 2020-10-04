@@ -25,4 +25,9 @@ public interface CanvasRenderer extends AbstractCanvas {
         setGraphics(graphics);
     }
 
+    default void show() {
+        getBufferStrategy().show();
+        getGraphics().dispose();
+    }
+
 }
